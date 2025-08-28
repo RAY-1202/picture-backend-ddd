@@ -103,4 +103,9 @@ public interface UserApplicationService {
     List<User> listByIds(Set<Long> userIdSet);
 
     long saveUser(User userEntity);
+
+    /**
+     * 用户兑换会员（会员码兑换）
+     */
+    boolean exchangeVip(User user, String vipCode);
 }
