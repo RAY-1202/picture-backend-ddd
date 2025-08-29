@@ -18,7 +18,7 @@ import java.util.List;
 public class PexelsImageSearch {
 
     private static final String API_KEY = "";
-    private static final String ENDPOINT = "";
+    private static final String ENDPOINT = "https://api.pexels.com/v1/";
 
     private static final String BAIDU_APP_ID = "";
     private static final String BAIDU_API_KEY = "";
